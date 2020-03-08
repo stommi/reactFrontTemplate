@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../styles/App.css';
 import Sidebar from "../sidebar/Sidebar";
+import TopPanel from "../panel/TopPanel";
+import LeftTopCorner from "../panel/LeftTopCorner";
 
 function App() {
   return (
@@ -8,7 +10,9 @@ function App() {
 
       <header className="App-header">
 
-        <Sidebar/>
+          <LeftTopCorner/>
+          <TopPanel/>
+          <Sidebar/>
 
       </header>
 

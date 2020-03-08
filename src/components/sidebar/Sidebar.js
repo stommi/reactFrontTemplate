@@ -8,6 +8,7 @@ import {
 import '../../styles/Sidebar.css'
 import Page1 from "../pages/Page1";
 import Home from "../pages/Home";
+import Contact from "../pages/Contact";
 
 
 const routes = [
@@ -39,6 +40,11 @@ const routes = [
         path: "/page4",
         sidebar: () => <div>Page4</div>,
         main: () => <p>Page here</p>
+    },
+    {
+        path: "/contact",
+        sidebar: () => <div>Contact</div>,
+        main: () => <Contact/>
     }
 ];
 

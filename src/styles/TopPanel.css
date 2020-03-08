@@ -1,0 +1,55 @@
+.topPanel {
+    background: rgba(8, 81, 54, 0.9);
+    height: 30px;
+    width: 60%;
+    right: 20%;
+    top: 0;
+    position: fixed;;
+    font-size: 70%;
+    text-indent: 80%;
+    align-content: center;
+}
+
+.leftTopCorner {
+    background: rgba(0, 29, 81, 0.9);
+    height: 30px;
+    width: 20%;
+    left: 0;
+    top: 0;
+    position: fixed;
+}
+
+.link1:visited {
+    color: white;
+    text-decoration: none;
+}
+
+.link1 {
+    color: white;
+    text-decoration: none;
+}
+
+.link1:hover {
+    color: #2d545e;;
+}
+
+.link1:active {
+    color: #2d545e;;
+}
+
+/*.topPanel a.link {*/
+/*    color: white;*/
+/*}*/
+
+/*.topPanel a.visited {*/
+/*    color: white*/
+/*}*/
+
+/*a.visited {*/
+/*    color: white;*/
+/*}*/
+
+/*a.hover {*/
+/*    background: white;*/
+/*    color: yellow;*/
+/*}*/
