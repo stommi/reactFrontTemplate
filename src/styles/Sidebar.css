@@ -1,0 +1,46 @@
+.sidebarOuter {
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 80%;
+    left: 0;
+
+}
+
+.sidebarInner {
+    background: rgba(0, 29, 81, 0.9);
+    color: yellow;
+    width: 25%;
+}
+
+.sidebarPages {
+    flex: 1;
+    padding: 30px;
+    overflow: scroll;
+    background-color: white;
+}
+
+.sidebarLinks {
+    list-style: none;
+    padding: 10px;
+    font-size: 70%;
+}
+
+.sidebarLinks :link {
+    color: white;
+    text-decoration: none;
+    font-size: 110%;
+}
+
+.sidebarLinks :visited {
+    color: white;
+}
+
+.sidebarLinks :hover {
+    color: #2d545e;
+    background-color: white;
+}
+
+.sidebarLinks :active {
+    background-color: white;
+}
