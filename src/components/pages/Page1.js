@@ -5,9 +5,12 @@ class Page1 extends Component {
     render() {
         return (
             <div>
-                <img src={pic1} className="gaming-pic" alt="pic1" height={400}/>
-                <br/>
+                <img src={pic1} className="feedPic" alt="pic1"/>
+                <img src={pic1} className="feedPic" alt="pic1"/>
 
+                    <br/>
+
+                <p className="feedText">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi assumenda dignissimos esse hic
                 id ipsum labore molestias numquam odit placeat quidem reiciendis repellendus saepe similique tempora
                 tenetur totam, voluptatem!
@@ -83,6 +86,7 @@ class Page1 extends Component {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi assumenda dignissimos esse hic
                 id ipsum labore molestias numquam odit placeat quidem reiciendis repellendus saepe similique tempora
                 tenetur totam, voluptatem!
+                </p>
             </div>
         );
     }

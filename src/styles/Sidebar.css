@@ -16,7 +16,7 @@
 
 .sidebarPages {
     flex: 1;
-    padding: 30px;
+    padding: 0px;
     overflow: scroll;
     background-color: white;
     text-align: center;
@@ -44,4 +44,14 @@
 
 .sidebarLinks :active {
     background-color: white;
+}
+
+.feedPic {
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.feedText {
+    padding: 30px;
 }
