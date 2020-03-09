@@ -4,7 +4,9 @@ class Contact extends Component {
     render() {
         return (
             <div>
-             Please contact us @.
+                <p className="feedText">
+                    Please contact us @.
+                </p>
             </div>
         );
     }

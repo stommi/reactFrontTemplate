@@ -21,9 +21,9 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: #2d545e;
+  color: mediumpurple;
 
-  background-image: url(../pictures/space1.jpeg);
+  background-image: url(../pictures/abstractdark.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
