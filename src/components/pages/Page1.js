@@ -7,8 +7,8 @@ class Page1 extends Component {
             <div>
                 <img src={pic1} className="feedPic" alt="pic1"/>
                 <img src={pic1} className="feedPic" alt="pic1"/>
-
-                    <br/>
+                <img src={pic1} className="feedPic" alt="pic1"/>
+                <br/>
 
                 <p className="feedText">
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid animi assumenda dignissimos esse hic

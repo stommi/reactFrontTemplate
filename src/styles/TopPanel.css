@@ -1,5 +1,5 @@
 .topPanel {
-    background: rgba(0, 0, 0, 0.9);
+    background: rgba(0, 0, 0, 0.85);
     height: 30px;
     width: 60%;
     right: 20%;
@@ -11,7 +11,7 @@
 }
 
 .leftTopCorner {
-    background: rgba(0, 29, 81, 0.9);
+    background: rgba(0, 0, 0, 0.85);
     height: 30px;
     width: 20%;
     left: 0;
@@ -20,19 +20,19 @@
 }
 
 .link1:visited {
-    color: white;
+    color: mediumpurple;
     text-decoration: none;
 }
 
 .link1 {
-    color: white;
+    color: mediumpurple;
     text-decoration: none;
 }
 
 .link1:hover {
-    color: #fff0b6;
+    color: white;
 }
 
 .link1:active {
-    color: #fff0b6;
+    color: white;
 }

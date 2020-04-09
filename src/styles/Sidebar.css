@@ -9,16 +9,17 @@
 }
 
 .sidebarInner {
-    background: rgba(0, 29, 81, 0.9);
-    color: #fff0b6;
+    background: rgba(0, 0, 0, 0.85);
+    color: white;
     width: 25%;
+    font-size: 70%;
 }
 
 .sidebarPages {
     flex: 1;
     padding: 0px;
     overflow: scroll;
-    background-color: white;
+    background-color: #2d2d2d;
     text-align: center;
 }
 
@@ -28,22 +29,21 @@
 }
 
 .sidebarLinks :link {
-    color: white;
+    color: mediumpurple;
     text-decoration: none;
-    font-size: 80%;
+    font-size: 110%;
 }
 
 .sidebarLinks :visited {
-    color: white;
+    color: mediumpurple;
 }
 
 .sidebarLinks :hover {
-    color: #2d545e;
-    background-color: white;
+    color: white;
 }
 
 .sidebarLinks :active {
-    background-color: white;
+    color: white;
 }
 
 .feedPic {
@@ -54,4 +54,5 @@
 
 .feedText {
     padding: 30px;
+    font-size: 80%;
 }
