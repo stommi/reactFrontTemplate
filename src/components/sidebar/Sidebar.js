@@ -7,6 +7,9 @@ import {
 } from "react-router-dom";
 import '../../styles/Sidebar.css'
 import Page1 from "../pages/Page1";
+import Page2 from "../pages/Page2";
+import Page3 from "../pages/Page2";
+import Page4 from "../pages/Page2";
 import Home from "../pages/Home";
 import Contact from "../pages/Contact";
 
@@ -29,17 +32,17 @@ const routes = [
     {
         path: "/page2",
         sidebar: () => <div>Page2</div>,
-        main: () => <p>Page here</p>
+        main: () => <Page2/>
     },
     {
         path: "/page3",
         sidebar: () => <div>Page3</div>,
-        main: () => <p>Page here</p>
+        main: () => <Page3/>
     },
     {
         path: "/page4",
         sidebar: () => <div>Page4</div>,
-        main: () => <p>Page here</p>
+        main: () => <Page4/>
     },
     {
         path: "/contact",
