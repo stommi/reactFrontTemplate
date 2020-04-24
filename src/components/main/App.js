@@ -7,7 +7,6 @@ import LeftTopCorner from "../panel/LeftTopCorner";
 function App() {
   return (
     <div className="App">
-
       <header className="App-header">
 
           <LeftTopCorner/>
@@ -15,7 +14,6 @@ function App() {
           <Sidebar/>
 
       </header>
-
     </div>
   );
 }

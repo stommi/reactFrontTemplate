@@ -1,7 +1,6 @@
 import React, {Component} from 'react';
 import '../../styles/TopPanel.css'
 
-
 class TopPanel extends Component {
     render() {
         return (
